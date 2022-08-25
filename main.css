@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+
 /* reuse able */
 .btn {
     padding: 15px 20px;
@@ -32,6 +38,18 @@
 
 
 /* header-section starts */
+.siderow {
+    background: #FF6347;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none; 
+}
+
+
+
 .nav-mobile {
     background: #FF6347;;
     display: none;
@@ -64,7 +82,7 @@
 
 .menubars {
     height: 3px;
-    background: var(--white-color);
+    background: #FFFFFF;
     width: 100%;
     position: relative;
 
@@ -113,6 +131,9 @@
     top: 0;
 }
 
+.showlinks {
+    display: block;
+}
 .mobile__link li {
     list-style: none;
 }
@@ -125,13 +146,13 @@
 }
 
 .mobile__link-holder:hover {
-    background: #FF6347;
-    color:  #FFFFFF;
+    background: #FFFFFF;
+    color: #FF6347;
 }
 
 .active-link {
-    background: var(--white-color);
-    color: var(--main-color);
+    background: #FFFFFF;
+    color: #FF6347;
 }
 
 

@@ -5,12 +5,8 @@
     display: flex;
 }
 
-
-
-
-
-
     /* ============== */
+    
 .nav-deskstop {
     display: none;
 }
@@ -79,4 +75,5 @@
 footer {
     display: none;
 /* footer ends */
+}
 }
