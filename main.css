@@ -30,7 +30,6 @@ html{
 /* reuse able ends */
 
 
-
 /* footer starts */
 /* footer starts */
 /* footer starts */
@@ -38,40 +37,33 @@ html{
 
 
 /* header-section starts */
-.siderow {
-    background: #FF6347;
+.backdrop {
+    /* background: #FF6347; */
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    display: none; 
+    display: none;
 }
-
 
 
 .nav-mobile {
-    background: #FF6347;;
-    display: none;
-    justify-content: space-between;
-    padding: 10px 30px;
-    align-items: center;
+background: #FF6347;
+display: none;
+justify-content: space-between;
+padding: 10px 30px;
+align-items: center;
 }
 
-.mobile__brand {
-    display: flex;
-    align-items: center;
-}
-
-.mobile__brand h1 {
+.mobile-brand {
     color: #FFFFFF;
-    margin-left: 10px;
-    font-size: 25px;
+    font-size: 10px;
     font-weight: 600;
 }
 
 .hamburger-menu {
-    /* border: 2px solid var(--white-color); */
+    /* border: 2px solid #FFFFFF; */
     width: 25px;
     height: 25px;
     display: flex;
@@ -81,11 +73,10 @@ html{
 }
 
 .menubars {
-    height: 3px;
+    height: 5px;
     background: #FFFFFF;
     width: 100%;
     position: relative;
-
 }
 
 .menubars::before,
@@ -94,11 +85,13 @@ html{
     background: #FFFFFF;
     position: absolute;
     width: 100%;
-    height: 3px;
+    height: 5px;
+    
 }
 
 .menubars::before {
     transform: translateY(-10px);
+    
 }
 
 .menubars::after {
@@ -109,33 +102,32 @@ html{
     background: transparent;
 }
 
-.show .menubars::before{
+.show .menubars::before {
     transform: rotate(45deg);
-    background: #FF6347;
+    background: #FFFFFF;
 }
 
 .show .menubars::after {
     transform: rotate(-45deg);
-    background: #FF6347;
+
 }
 
-
-
-.mobile-link {
+.mobile__link {
     display: none;
     width: 50%;
-    height: 100vh;
+    height: 25vh;
     position: fixed;
     background: #FF6347;
     right: 0;
     top: 0;
 }
-
 .showlinks {
     display: block;
 }
+
 .mobile__link li {
     list-style: none;
+    font-size: 10px;
 }
 
 .mobile__link-holder {
@@ -154,6 +146,8 @@ html{
     background: #FFFFFF;
     color: #FF6347;
 }
+
+
 
 
 
@@ -197,7 +191,7 @@ html{
 .header-section{
     /* padding-top: 130px; */
     padding-top: 30px;
-    background: url(./img/header.jpg);
+    background: rgba(255, 99, 71, 0.1) url(./img/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
@@ -298,7 +292,7 @@ html{
     background: #FF6347;
     display: flex;
     justify-content: space-between;
-    padding: 20px 35px;
+    padding: 10px 10px;
 }
 .explore-link h3 {
     color: #FFFFFF;
