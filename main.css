@@ -343,23 +343,29 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px 0;  
-
+    padding: 20px 0; 
+    
 }
 
 .footer-icon__holder {
     display: flex;
+    
     /* color: #FFFFFF; */
 }
+    
 
 .footer-icon {
-    color:#ffffff ;
+    /* color:#ffffff ; */
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 19px;
+    
+    
+
+    
 }
 
 
